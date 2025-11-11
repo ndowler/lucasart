@@ -1,18 +1,15 @@
-import type { Metadata } from 'next';
+'use client';
+
 import { Check, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { CTASection } from '@/components/cta-section';
 import { FAQSection } from '@/components/faq-section';
-import { generateMetadata as genMeta, createServiceSchema } from '@/lib/seo';
+import { createServiceSchema } from '@/lib/seo';
 import { trackDownload } from '@/lib/analytics';
 import type { FAQ } from '@/types';
 
-export const metadata: Metadata = genMeta({
-  title: 'Business & Personal Tax Preparation | FoxGlove CPA',
-  description:
-    'Tax preparation for PNW founders. 1040 from $1,200; Business returns from $1,600. Strategic planning included.',
-  path: '/services/tax-prep',
-});
+// Note: Client Component for interactive download button
+// TODO: Move metadata to a layout or use generateMetadata in a wrapper
 
 const pricing = [
   {
@@ -68,7 +65,7 @@ const faqs: FAQ[] = [
   {
     question: 'What if my books are messy?',
     answer:
-      'We can clean them up first. Tax prep pricing assumes your books are ready. If cleanup is needed, we'll quote that separately (typically 2-4 weeks, $800-$2K).',
+      "We can clean them up first. Tax prep pricing assumes your books are ready. If cleanup is needed, we'll quote that separately (typically 2-4 weeks, $800-$2K).",
   },
   {
     question: 'Is tax planning included?',
@@ -107,7 +104,7 @@ export default function TaxPrepPage() {
             Business & Personal Tax Preparation
           </h1>
           <p className="text-lg text-muted-foreground">
-            Strategic tax preparation for PNW founders. We don't just file—we
+            Strategic tax preparation for PNW founders. We don&apos;t just file—we
             optimize.
           </p>
         </div>
@@ -159,7 +156,7 @@ export default function TaxPrepPage() {
         {/* Ready Checklist */}
         <div className="mb-16 bg-muted/30 rounded-lg p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">
-            Get the "Ready for Tax Prep" Checklist
+            Get the &quot;Ready for Tax Prep&quot; Checklist
           </h2>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             Download our free checklist to ensure you have everything we need for

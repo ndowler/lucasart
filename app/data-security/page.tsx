@@ -66,7 +66,7 @@ export default function DataSecurityPage() {
           Your Data, Protected
         </h1>
         <p className="text-lg text-muted-foreground">
-          We take data security seriously. Here's how we protect your financial
+          We take data security seriously. Here is how we protect your financial
           information.
         </p>
       </div>
@@ -148,7 +148,7 @@ export default function DataSecurityPage() {
       <div className="text-center">
         <h2 className="text-2xl font-bold mb-4">Questions About Our Security?</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
-          We're happy to discuss our security practices in detail. If you have
+          We are happy to discuss our security practices in detail. If you have
           specific compliance or security requirements, let us know.
         </p>
         <Link

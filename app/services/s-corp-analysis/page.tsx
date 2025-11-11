@@ -57,9 +57,9 @@ const faqs: FAQ[] = [
       'You can always revoke S-Corp election, though there are timing rules. More commonly, we adjust your salary downward if revenue drops, maintaining compliance with "reasonable compensation" requirements.',
   },
   {
-    question: 'Is the $500 analysis fee refunded if I don't elect S-Corp?',
+    question: "Is the $500 analysis fee refunded if I don't elect S-Corp?",
     answer:
-      'The fee is only credited if you sign up for ongoing monthly accounting within 30 days of the analysis. If you decide S-Corp doesn't make sense for your situation, the analysis fee stands—but you'll have clarity and avoid making a costly mistake.',
+      "The fee is only credited if you sign up for ongoing monthly accounting within 30 days of the analysis. If you decide S-Corp doesn't make sense for your situation, the analysis fee stands—but you'll have clarity and avoid making a costly mistake.",
   },
 ];
 
@@ -166,7 +166,7 @@ export default function SCorpAnalysisPage() {
             Want a quick ballpark estimate?
           </h2>
           <p className="text-muted-foreground mb-6">
-            Use our free S-Corp savings calculator to see if you're in the
+            Use our free S-Corp savings calculator to see if you&apos;re in the
             ballpark for election.
           </p>
           <Link

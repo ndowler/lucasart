@@ -2,7 +2,7 @@ import type { GAEvent } from '@/types';
 
 declare global {
   interface Window {
-    dataLayer: any[];
+    dataLayer: GAEvent[];
   }
 }
 

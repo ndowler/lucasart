@@ -39,7 +39,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="text-lg text-muted-foreground">
-            We'd love to hear about your business and see how we can help.
+            We would love to hear about your business and see how we can help.
           </p>
         </div>
 
@@ -124,7 +124,7 @@ export default function ContactPage() {
             <div className="mt-8 rounded-lg border-2 border-primary p-6 text-center">
               <h3 className="font-semibold mb-2">Prefer to schedule a call directly?</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                Book a 20-minute intro call and we'll discuss your needs.
+                Book a 20-minute intro call and we will discuss your needs.
               </p>
               <Link
                 href="/schedule"

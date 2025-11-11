@@ -113,7 +113,7 @@ export default function TermsPage() {
 
         <h2>Disclaimer of Warranties</h2>
         <p>
-          Our website and services are provided "as is" without warranties of any kind, either express or implied. We do not guarantee that:
+          Our website and services are provided &quot;as is&quot; without warranties of any kind, either express or implied. We do not guarantee that:
         </p>
         <ul>
           <li>The website will be uninterrupted or error-free</li>

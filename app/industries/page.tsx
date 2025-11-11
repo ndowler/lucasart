@@ -105,11 +105,11 @@ export default function IndustriesPage() {
       {/* Bottom CTA */}
       <div className="mt-16 text-center">
         <h2 className="text-2xl font-bold mb-4">
-          Don't see your industry listed?
+          Don&apos;t see your industry listed?
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
           We work with founders across many industries. If you have unique
-          accounting needs, we'd love to discuss how we can help.
+          accounting needs, we would love to discuss how we can help.
         </p>
         <Link
           href="/contact"

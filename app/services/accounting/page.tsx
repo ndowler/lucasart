@@ -69,7 +69,7 @@ const faqs: FAQ[] = [
   {
     question: "Can I upgrade or downgrade my package if my business changes?",
     answer:
-      'Absolutely. As your business grows or your needs change, we can adjust your service package. We review scope quarterly to ensure we're providing the right level of support.',
+      "Absolutely. As your business grows or your needs change, we can adjust your service package. We review scope quarterly to ensure we're providing the right level of support.",
   },
 ];
 
@@ -106,7 +106,7 @@ export default function AccountingPage() {
           <div className="rounded-lg border p-6">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
               <Check className="h-6 w-6 text-green-600" />
-              Who it's for
+              Who it&apos;s for
             </h2>
             <ul className="space-y-2 text-muted-foreground">
               <li>• Founders making $200K+ annual revenue</li>
@@ -122,7 +122,7 @@ export default function AccountingPage() {
               Not for
             </h2>
             <ul className="space-y-2 text-muted-foreground">
-              <li>• Very early-stage (< $50K revenue)</li>
+              <li>• Very early-stage (less than $50,000 revenue)</li>
               <li>• Businesses with zero transactions</li>
               <li>• Those wanting DIY bookkeeping support only</li>
               <li>• Companies outside WA/OR</li>

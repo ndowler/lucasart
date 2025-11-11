@@ -9,6 +9,7 @@ import { GTMScript } from '@/components/gtm-script';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://foxglove.cpa'),
   title: {
     default:
       'Proactive Tax & Cash-Flow Coaching | FoxGlove CPA (Veteran-Owned, PNW)',

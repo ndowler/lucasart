@@ -43,7 +43,7 @@ export function NewsletterForm() {
 
       // Reset success message after 5 seconds
       setTimeout(() => setIsSuccess(false), 5000);
-    } catch (error) {
+    } catch {
       setFormError('Something went wrong. Please try again.');
     } finally {
       setIsSubmitting(false);

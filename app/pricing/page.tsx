@@ -172,7 +172,7 @@ export default function PricingPage() {
             <AccordionItem value="monthly">
               <AccordionTrigger>
                 <span className="text-lg font-semibold">
-                  What's included vs. not included in Monthly Accounting?
+                  What&apos;s included vs. not included in Monthly Accounting?
                 </span>
               </AccordionTrigger>
               <AccordionContent>

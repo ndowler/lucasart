@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { X } from 'lucide-react';
 import { InlineWidget } from 'react-calendly';
 import {
   Dialog,

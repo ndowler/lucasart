@@ -6,7 +6,7 @@ import { generateMetadata as genMeta, createServiceSchema } from '@/lib/seo';
 export const metadata: Metadata = genMeta({
   title: 'Cleanup & Migration | 30-Day Rescue Plan',
   description:
-    'Messy books? We'll clean them up and migrate you to QuickBooks Online in 30 days. Flat-fee pricing based on months of backlog.',
+    "Messy books? We'll clean them up and migrate you to QuickBooks Online in 30 days. Flat-fee pricing based on months of backlog.",
   path: '/services/cleanup-migration',
 });
 
@@ -68,7 +68,7 @@ export default function CleanupMigrationPage() {
             Cleanup & Migration: 30-Day Rescue Plan
           </h1>
           <p className="text-lg text-muted-foreground">
-            Behind on your books? We'll get you current and set you up for success
+            Behind on your books? We will get you current and set you up for success
             in QuickBooks Online.
           </p>
         </div>
@@ -76,8 +76,8 @@ export default function CleanupMigrationPage() {
         {/* Problem Statement */}
         <div className="mb-16 prose prose-lg max-w-none">
           <p>
-            <strong>Messy books create real problems:</strong> You can't make good
-            decisions, your tax prep is expensive and stressful, and lenders won't
+            <strong>Messy books create real problems:</strong> You can&apos;t make good
+            decisions, your tax prep is expensive and stressful, and lenders won&apos;t
             take you seriously.
           </p>
           <p>
@@ -133,7 +133,7 @@ export default function CleanupMigrationPage() {
           </div>
           <p className="mt-6 text-sm text-muted-foreground">
             Exact pricing depends on transaction volume, complexity, and current
-            software. We'll provide a fixed quote after a 20-minute discovery call.
+            software. We will provide a fixed quote after a 20-minute discovery call.
           </p>
         </div>
 
@@ -141,7 +141,7 @@ export default function CleanupMigrationPage() {
         <div className="mb-16 bg-muted/30 rounded-lg p-8">
           <h2 className="text-2xl font-bold mb-4">Migration Path</h2>
           <p className="text-muted-foreground mb-4">
-            Currently using Excel, Xero, or another platform? We'll migrate your
+            Currently using Excel, Xero, or another platform? We will migrate your
             data to QuickBooks Online as part of the cleanup process.
           </p>
           <ul className="space-y-2 text-muted-foreground">

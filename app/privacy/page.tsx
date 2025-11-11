@@ -16,7 +16,7 @@ export default function PrivacyPage() {
 
         <h2>Introduction</h2>
         <p>
-          FoxGlove CPA ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+          FoxGlove CPA (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
         </p>
 
         <h2>Information We Collect</h2>
@@ -113,7 +113,7 @@ export default function PrivacyPage() {
 
         <h2>Changes to This Policy</h2>
         <p>
-          We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last Updated" date.
+          We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated &quot;Last Updated&quot; date.
         </p>
 
         <h2>Contact Us</h2>

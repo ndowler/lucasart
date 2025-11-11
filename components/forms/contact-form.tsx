@@ -60,7 +60,7 @@ export function ContactForm() {
       trackContactFormSubmit();
       setIsSuccess(true);
       reset();
-    } catch (error) {
+    } catch {
       setFormError(
         'Something went wrong. Please try again or email us directly.'
       );
@@ -76,7 +76,7 @@ export function ContactForm() {
           Thank you for reaching out!
         </h3>
         <p className="text-green-800 mb-4">
-          We've received your message and will respond within 1 business day.
+          We have received your message and will respond within 1 business day.
           Check your email for a confirmation.
         </p>
         <Button
@@ -156,7 +156,7 @@ export function ContactForm() {
       {/* Message */}
       <div>
         <Label htmlFor="message">
-          What's your biggest finance headache? <span className="text-destructive">*</span>
+          What&apos;s your biggest finance headache? <span className="text-destructive">*</span>
         </Label>
         <Textarea
           id="message"

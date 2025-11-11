@@ -83,7 +83,7 @@ export default function AboutPage() {
               Built for Founders. Grounded in Service.
             </h1>
             <p className="text-lg text-white/90">
-              We're a veteran-owned CPA firm serving small business founders across
+              We are a veteran-owned CPA firm serving small business founders across
               Washington and Oregon.
             </p>
           </div>
@@ -126,7 +126,7 @@ export default function AboutPage() {
             Why the Pacific Northwest?
           </h2>
           <p className="text-muted-foreground mb-4">
-            We're based in Tacoma, WA and serve clients throughout Washington and
+            We are based in Tacoma, WA and serve clients throughout Washington and
             Oregon. The PNW has a unique business landscape:
           </p>
           <ul className="space-y-2 text-muted-foreground">
@@ -186,7 +186,7 @@ export default function AboutPage() {
             Want to work with a veteran-owned CPA?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            We'd love to hear about your business and see if we're a good fit.
+            We would love to hear about your business and see if we are a good fit.
           </p>
         </div>
       </div>

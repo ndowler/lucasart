@@ -153,7 +153,7 @@ export default function TechnologyPage() {
           Questions about our technology?
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          We're happy to discuss our tools, security practices, and integrations
+          We are happy to discuss our tools, security practices, and integrations
           in detail.
         </p>
       </div>

@@ -56,7 +56,7 @@ const faqs: FAQ[] = [
   {
     question: 'How do I know which clients are actually profitable?',
     answer:
-      'We set up client-level P&Ls that track revenue, direct costs (labor, contractors, software), and overhead allocation. You'll see margin by client every month.',
+      "We set up client-level P&Ls that track revenue, direct costs (labor, contractors, software), and overhead allocation. You'll see margin by client every month.",
   },
   {
     question: 'What if I have a mix of retainer and project clients?',
@@ -112,7 +112,7 @@ export default function CreativeAgenciesPage() {
           <p className="text-muted-foreground">
             A 10-person agency thought they were doing great, but had no
             project-level visibility. We implemented client and project tracking
-            in QuickBooks. Result: Discovered one "anchor client" was actually
+            in QuickBooks. Result: Discovered one &quot;anchor client&quot; was actually
             losing money (15% negative margin), while smaller projects were highly
             profitable. They adjusted pricing and focus, improving overall margins
             by 12 points.

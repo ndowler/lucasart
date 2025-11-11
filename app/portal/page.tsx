@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { ExternalLink, Shield, FileText, MessageSquare } from 'lucide-react';
+import { Shield, FileText, MessageSquare } from 'lucide-react';
 import { PortalButton } from '@/components/portal-button';
 import { generateMetadata as genMeta } from '@/lib/seo';
 
@@ -35,7 +35,7 @@ export default function PortalPage() {
           </p>
           <PortalButton />
           <p className="mt-4 text-sm text-muted-foreground">
-            Don't have portal access?{' '}
+            Don&apos;t have portal access?{' '}
             <a href="mailto:hello@foxglove.cpa" className="text-primary hover:underline">
               Contact us
             </a>
@@ -72,7 +72,7 @@ export default function PortalPage() {
           <h3 className="font-semibold mb-3">Need Help?</h3>
           <div className="space-y-2 text-sm">
             <p>
-              <strong>Forgot your password?</strong> Click "Forgot Password" on
+              <strong>Forgot your password?</strong> Click &quot;Forgot Password&quot; on
               the portal login page.
             </p>
             <p>
